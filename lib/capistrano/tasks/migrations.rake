@@ -27,7 +27,7 @@ namespace :deploy do
     end
   end
 
-  after 'deploy:updated', 'deploy:migrate'
+  # after 'deploy:updated', 'deploy:migrate'
 end
 
 namespace :load do
